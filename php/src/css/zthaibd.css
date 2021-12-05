@@ -1,0 +1,768 @@
+@charset "utf-8";
+
+body {
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+}
+
+#top {
+    width: 100%;
+    background: #e9e9e9;
+    font-size: 12px;
+    color: #fff;
+    padding: 5px 0;
+    height: 30px;
+}
+
+.topconatact {
+    float: right;
+    min-width: 350px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #818181;
+}
+
+.contactico {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    background: url(../images/cont-icon.png) no-repeat scroll 0 50%;
+    width: 50%;
+    padding: 0 0 0 15px;
+    color: #818181;
+}
+
+.contactico:hover {
+    background: url(../images/cont-icon-hov.png) no-repeat scroll 0 50%;
+    color: #000000;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+
+header {
+    margin-top: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header h1 {
+    padding-left: 160px;
+    padding-top: 20px;
+    background-image: url(../images/organic-food-restaurant-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 70px;
+    background-size: 85px;
+}
+
+/* Page title
+-------------------------------------------------------------- */
+.page-title {
+    background: url(../images/banner.jpg);
+    width: 100%;
+    height: 150px;
+    background-position: 50% 60%;
+    padding: 35px;
+}
+
+.page-title .page-title-heading {
+    text-align: center;
+}
+
+.page-title .page-title-heading h1.title {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.page-title .breadcrumbs ul li {
+    display: inline-block;
+    color: #ffffff;
+    padding: 0 9px;
+}
+
+.page-title .breadcrumbs ul li a {
+    color: #959595;
+    position: relative;
+}
+
+.page-title .breadcrumbs ul li a:hover {
+    color: #e44c2a;
+}
+
+.page-title .breadcrumbs ul li:last-child a {
+    color: #fff;
+}
+
+.page-title .breadcrumbs ul li a:before {
+    position: absolute;
+    content: "\f105";
+    font-family: 'FontAwesome';
+    top: -4px;
+    left: -12px;
+    font-size: 15px;
+    color: #959595;
+}
+
+.page-title .breadcrumbs ul li:first-child a:before {
+    content: '';
+}
+
+.page-title-heading .breadcrumbs ul li a {
+    color: #959595;
+    position: relative;
+}
+
+main {
+    min-height: 550px;
+    padding: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.block-section {
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.block-section h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* service blocks */
+.service-container {
+    margin: auto;
+    width: 55%;
+    margin-top: 40px;
+}
+
+.service-cell {
+    margin: auto;
+    width: 48%;
+    float: left;
+    padding: 20px;
+}
+
+.service-cell a {
+    color: #333333;
+}
+
+.service-sub-title {
+    font-family: 'Great Vibes', 'Edwardian Script', 'Brush Script MT', cursive;
+    font-size: 35px;
+}
+
+#service-circle1 {
+    background: url(../images/service/Service-1.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#service-circle2 {
+    background: url(../images/service/Service-2.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/* navigation menu */
+.navbar {
+    display: none;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    position: relative;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+    line-height: 100px;
+    padding: 10px 24px 0;
+    outline: none;
+    letter-spacing: 0.78px;
+}
+
+nav ul li a:link {
+    display: block;
+}
+
+nav ul li a:visited {
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #e44c2a;
+}
+
+nav ul li a:active {
+    display: block;
+}
+
+nav ul li#iamhere a,
+nav ul li#iamhere a:link,
+nav ul li#iamhere a:visited,
+nav ul li#iamhere a:hover {
+    color: #e44c2a;
+}
+
+nav ul li {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-width: 100px;
+    float: left;
+    text-align: center;
+}
+
+footer {
+    font-size: smaller;
+    text-align: center;
+    min-height: 175px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+    /*background: #e9e9e9;*/
+}
+
+footer a {
+    color: #333333;
+}
+
+footer p {
+    padding: 1em;
+}
+
+.footer-quick-links {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+
+}
+
+.footer-quick-links ul {
+    list-style: none;
+    margin-left: -35px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    display: inline-block;
+}
+
+.have-questions,
+.quick-links-titles {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact_no {
+    /*font-family: 'open_sansregular';*/
+    font-size: 25px;
+    display: block;
+}
+
+/* carousel-item */
+.carousel-control-next,
+.carousel-control-prev {
+    width: 30%;
+}
+
+.carousel-item img {
+    width: 80% !important;
+    height: 500px !important;
+    margin: auto;
+}
+
+/* menu */
+.menu-type-container {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu-type {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #877d8add;
+    float: left;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.circle-set-menu {
+    background: url(../images/menu/set_menu.jpg);
+    background-size: cover;
+    background-position: 67%;
+}
+
+.circle-customized-menu {
+    background: url(../images/menu/customized_menu.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.menu-header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+
+.menu-type a {
+    color: #fff;
+}
+
+.item-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.item-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#show-details-lunch-set-menu .menu-container,
+#show-details-dinner-set-menu .menu-container {
+    width: 23%;
+    float: left;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 5px;
+}
+
+#show-details-lunch-set-menu .menu-image,
+#show-details-dinner-set-menu .menu-image {
+    height: 200px;
+    background: url(../images/menu/1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+#show-details-lunch-set-menu .menu-name,
+#show-details-dinner-set-menu .menu-name {
+    width: 70%;
+    float: left;
+    font-size: 20px;
+    border-top: 1px solid #ddd;
+}
+
+#show-details-lunch-set-menu .menu-price,
+#show-details-dinner-set-menu .menu-price {
+    width: 30%;
+    float: left;
+    font-size: 20px;
+    border-top: 1px solid #ddd;
+}
+
+#show-details-lunch-set-menu .menu-details,
+#show-details-dinner-set-menu .menu-details {
+    width: 100%;
+    float: left;
+    clear: both;
+    border-top: 1px solid #ddd;
+}
+
+#show-details-lunch-set-menu .item-name,
+#show-details-dinner-set-menu .item-name {
+    width: 70%;
+    float: left;
+    clear: both;
+}
+
+#show-details-lunch-set-menu .item-quantity,
+#show-details-dinner-set-menu .item-quantity {
+    width: 30%;
+    float: left;
+}
+
+.place-order {
+    width: 100%;
+    float: left
+}
+
+.place-order select {
+    word-wrap: normal;
+    height: 30px;
+}
+
+.place-order .order-type-container,
+.place-order .order-button-container {
+    width: 50%;
+    float: left;
+}
+
+/* customize menu */
+.row-head {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    background: #ddd;
+    color: #333333;
+    height: 40px !important;
+}
+
+.item-row div {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#show-details-lunch-customize .item-row div,
+#show-details-dinner-customize .item-row div {
+    height: 75px;
+}
+
+#show-details-lunch-customize .menu-container,
+#show-details-dinner-customize .menu-container {
+    width: 100%;
+    border: 1px solid #ddd;
+    float: left;
+}
+
+#show-details-lunch-customize .item-row,
+#show-details-dinner-customize .item-row {
+    width: 100%;
+    float: left;
+}
+
+#show-details-lunch-customize .item-name,
+#show-details-dinner-customize .item-name,
+#show-details-lunch-customize .item-image,
+#show-details-dinner-customize .item-image {
+    width: 30%;
+    float: left;
+}
+
+#show-details-lunch-customize .item-image img,
+#show-details-dinner-customize .item-image img {
+    width: 85px;
+    height: 60px;
+}
+
+#show-details-lunch-customize .item-checked,
+#show-details-lunch-customize .item-unit,
+#show-details-lunch-customize .item-unit-price,
+#show-details-lunch-customize .order-item-qty,
+#show-details-lunch-customize .item-total,
+#show-details-dinner-customize .item-checked,
+#show-details-dinner-customize .item-unit,
+#show-details-dinner-customize .item-unit-price,
+#show-details-dinner-customize .order-item-qty,
+#show-details-dinner-customize .item-total {
+    width: 10%;
+    float: left;
+}
+
+#show-details-lunch-customize .place-order,
+#show-details-dinner-customize .place-order {
+    width: 100%;
+    float: left;
+}
+
+.row-footer {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* About us page */
+
+.aboutus-container {
+    margin: auto;
+    width: 75%;
+    margin-top: 40px;
+}
+
+.aboutus-cell {
+    margin: auto;
+    width: 33%;
+    float: left;
+    padding: 20px;
+}
+
+
+#aboutus-circle1 {
+    background: url(../images/aboutus/left.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#aboutus-circle2 {
+    background: url(../images/aboutus/middle.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#aboutus-circle3 {
+    background: url(../images/aboutus/right.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.aboutus-text {
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+    padding: 20px 5px;
+    margin-top: 28%;
+}
+
+.mchef {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/*---contact page start----	*/
+.col-sm-3.col-lg-3.contact_us {
+    margin: 40px 0;
+}
+
+.contact_us h2 {
+    font-size: 25px;
+    color: #333333;
+    border-bottom: 1px solid #807d7d;
+    width: 67%;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+}
+
+.contact_us p {
+    font-family: 'open_sansregular';
+    font-size: 14px;
+    color: #1a1a1a;
+    margin: 15px 0;
+}
+
+.address ul {
+    padding: 0;
+}
+
+.address ul li {
+    list-style: none;
+    padding: 7px 0;
+}
+
+.address ul li a {
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.address ul li a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+.address span {
+    margin-right: 15px;
+}
+
+.col-sm-9.col-lg-9.form_address {
+    margin: 60px 0;
+}
+
+.your_name {
+
+    color: #454545;
+}
+
+.your_name > span {
+
+    margin-right: 5px;
+}
+
+.name_box {
+    width: 100%;
+    border: 1px solid #dedede;
+    padding: 5px 0;
+}
+
+.form_box2 textarea {
+    width: 100%;
+    border: 1px solid #dedede;
+}
+
+.form_box2 {
+    margin-top: 20px;
+}
+
+.form_box2 textarea {
+    height: 100px;
+}
+
+input[type=submit] {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    color: #fff;
+    font-size: 21px;
+    background: #3a3937 !important;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 120px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    height: unset;
+    line-height: unset;
+}
+
+input[type=submit].submit_btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-right {
+    background: url(../images/contact/gal-co-7-6.jpg);
+    background-size: contain;
+    height: 250px;
+}
+
+/* under construction pages */
+#under-construction-holder {
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+
+#under-construction-holder h2 {
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
+
+
+.under-construction {
+    background: url(../images/under_construction.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #aboutus-circle1,
+    #aboutus-circle2,
+    #aboutus-circle3 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .navbar {
+        display: block;
+        background: #fff !important;
+    }
+
+    .fullwidthnav {
+        display: none;
+
+    }
+
+    .navbar-brand {
+        float: left;
+    }
+
+    .navbar-light .navbar-toggler {
+        float: right;
+    }
+
+    nav ul li a {
+        line-height: 20px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .aboutus-cell,
+    .service-cell {
+        width: 100%;
+
+    }
+
+    .menu-type-container {
+        display: block;
+    }
+
+    .menu-type {
+        margin-bottom: 20px;
+    }
+
+    #show-details-lunch-set-menu .menu-container,
+    #show-details-dinner-set-menu .menu-container {
+        width: 45%
+    }
+
+    #aboutus-circle1,
+    #aboutus-circle2,
+    #aboutus-circle3 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer-quick-links {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+
+    #show-details-lunch-set-menu .menu-container,
+    #show-details-dinner-set-menu .menu-container {
+        width: 100%
+    }
+}

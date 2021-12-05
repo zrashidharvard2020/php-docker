@@ -1,0 +1,319 @@
+{
+    "Dinner": [
+        {
+            "menu_id": 1,
+            "menu_name": "Basil Egg Plant",
+            "image": "/menu/set_menu_dinner/Basil_Egg_Plant.jpg",
+            "items": [
+                {
+                    "item_name": "Basil Egg Plant",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks/water",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 215
+      },
+        {
+            "menu_id": 2,
+            "menu_name": "Basil Fried Rice",
+            "image": "/menu/set_menu_dinner/Basil_Egg_Plant.jpg",
+            "items": [
+                {
+                    "item_name": "Basil Fried Rice",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Minarel water",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 250
+      },
+        {
+            "menu_id": 3,
+            "menu_name": "Green Curry Fried Rice",
+            "image": "/menu/set_menu_dinner/Green_Curry_Fried_Rice.jpg",
+            "items": [
+                {
+                    "item_name": "Basil Fried Rice",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Minarel water",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 230
+      },
+        {
+            "menu_id": 4,
+            "menu_name": "Massaman Curry",
+            "image": "/menu/set_menu_dinner/Massaman_Curry.jpg",
+            "items": [
+                {
+                    "item_name": "Basil Fried Rice",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Minarel water",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 250
+      },
+        {
+            "menu_id": 5,
+            "menu_name": "Original Fried Rice",
+            "image": "/menu/set_menu_dinner/Original_Fried_Rice.jpg",
+            "items": [
+                {
+                    "item_name": "Original Fried Rice",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Minarel water",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 240
+      },
+        {
+            "menu_id": 6,
+            "menu_name": "Panang Curry",
+            "image": "/menu/set_menu_dinner/Panang_Curry.png",
+            "items": [
+                {
+                    "item_name": "Panang Curry",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 280
+      },
+        {
+            "menu_id": 7,
+            "menu_name": "Thai Pepper Steak",
+            "image": "/menu/set_menu_dinner/Thai_Pepper_Steak.jpg",
+            "items": [
+                {
+                    "item_name": "Thai Pepper Steak",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 235
+      },
+        {
+            "menu_id": 8,
+            "menu_name": "Tom Kha",
+            "image": "/menu/set_menu_dinner/Tom_Kha.png",
+            "items": [
+                {
+                    "item_name": "Tom Kha",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 245
+      },
+        {
+            "menu_id": 9,
+            "menu_name": "Tom Yum",
+            "image": "/menu/set_menu_dinner/Tom_Yum.jpg",
+            "items": [
+                {
+                    "item_name": "Tom Yum",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 230
+      },
+        {
+            "menu_id": 10,
+            "menu_name": "Yellow Curry",
+            "image": "/menu/set_menu_dinner/Yellow_Curry.jpg",
+            "items": [
+                {
+                    "item_name": "Yellow Curry",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 250
+      }
+   ],
+    "Lunch": [
+        {
+            "menu_id": 11,
+            "menu_name": "Basil Fried Rice",
+            "image": "/menu/set_menu_lunch/Basil_Fried_Rice.jpg",
+            "items": [
+                {
+                    "item_name": "Basil Fried Rice",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 150
+      },
+        {
+            "menu_id": 12,
+            "menu_name": "Cashew Chicken",
+            "image": "/menu/set_menu_lunch/Cashew_Chicken.jpg",
+            "items": [
+                {
+                    "item_name": "Cashew Chicken",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 180
+      },
+        {
+            "menu_id": 13,
+            "menu_name": "Chicken Peanut",
+            "image": "/menu/set_menu_lunch/Chicken_Peanut.jpg",
+            "items": [
+                {
+                    "item_name": "Chicken Peanut",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 170
+      }, {
+            "menu_id": 14,
+            "menu_name": "Garlic Chicken",
+            "image": "/menu/set_menu_lunch/Garlic_Chicken.jpg",
+            "items": [
+                {
+                    "item_name": "Garlic Chicken",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 190
+      }, {
+            "menu_id": 15,
+            "menu_name": "Green Curry Fried Rice",
+            "image": "/menu/set_menu_lunch/Green_Curry_Fried_Rice.jpg",
+            "items": [
+                {
+                    "item_name": "Green Curry Fried Rice",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 170
+      }, {
+            "menu_id": 16,
+            "menu_name": "Original Fried Rice",
+            "image": "/menu/set_menu_lunch/Original_Fried_Rice.jpg",
+            "items": [
+                {
+                    "item_name": "Original Fried Rice",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 125
+      }, {
+            "menu_id": 17,
+            "menu_name": "Pad Kee Mao",
+            "image": "/menu/set_menu_lunch/Pad_Kee_Mao.jpg",
+            "items": [
+                {
+                    "item_name": "Pad Kee Mao",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 150
+      }, {
+            "menu_id": 18,
+            "menu_name": "Pad-Thai",
+            "image": "/menu/set_menu_lunch/Pad_Thai.jpg",
+            "items": [
+                {
+                    "item_name": "Pad-Thai",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 160
+      }, {
+            "menu_id": 19,
+            "menu_name": "Saigon Noodle",
+            "image": "/menu/set_menu_lunch/Saigon_Noodle.jpg",
+            "items": [
+                {
+                    "item_name": "Saigon Noodle",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 130
+      }, {
+            "menu_id": 19,
+            "menu_name": "Thai Fish",
+            "image": "/menu/set_menu_lunch/Thai_Fish.jpg",
+            "items": [
+                {
+                    "item_name": "Thai Fish",
+                    "quantity": "1 Dish"
+            },
+                {
+                    "item_name": "Drinks",
+                    "quantity": "0.5 Liter"
+            }
+         ],
+            "price": 175
+      }
+   ]
+}

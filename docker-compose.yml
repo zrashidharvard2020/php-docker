@@ -1,0 +1,25 @@
+version: '20.10.11'
+services:
+  php-apache-environment:
+    container_name: php-apache
+    image: php:8.0-apache
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    volumes:
+      - ./php/src:/var/www/html/
+    ports:
+      - 8000:80
+  db:
+    container_name: db
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: adil2013
+      MYSQL_DATABASE: zthaibd
+      MYSQL_USER: zthaibd
+      MYSQL_PASSWORD: harvard2020
+    ports:
+      - "9906:3306"

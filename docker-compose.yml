@@ -1,5 +1,7 @@
 version: '20.10.11'
 services:
+  my-service:
+    hostname: zthaidb.xyz
   php-apache-environment:
     container_name: php-apache
     image: php:8.0-apache

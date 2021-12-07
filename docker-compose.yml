@@ -1,7 +1,5 @@
 version: '20.10.11'
 services:
-  my-service:
-    hostname: zthaidb.xyz
   php-apache-environment:
     container_name: php-apache
     image: php:8.0-apache
@@ -12,3 +10,14 @@ services:
       - ./php/src:/var/www/html/
     ports:
       - 8000:80
+  db:
+    container_name: db
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: zahid2020
+      MYSQL_DATABASE: zthaibd
+      MYSQL_USER: zthaibd
+      MYSQL_PASSWORD: harvard2020
+    ports:
+      - "9906:3306"
